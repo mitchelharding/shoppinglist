@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script src="js/jquery-3.2.1.js"></script>
+     <script src="js/script.js"></script>
+   </head>
+   <body>
+     <div class="container">
+       <h1>Grocery list</h1>
+       <form class="form">
+
+         <div class="form-group">
+           <label for="meat">Meat</label>
+           <input id="meat" class="form-control" type="text">
+         </div>
+
+         <div class="form-group">
+           <label for="veggies">Vegetables</label>
+           <input id="veggies" class="form-control" type="text">
+         </div>
+
+         <div class="form-group">
+           <label for="nutsandseeds">Nuts and Seeds</label>
+           <input id="nutsandseeds" class="form-control" type="text">
+         </div>
+
+         <div class="form-group">
+            <label for="fruit">Fruit</label>
+            <input id="fruit" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-success">Order</button>
+
+        </form>
+
+        <div class="output">
+          <ul style="list-style-type:none;">
+            <li><span class="meat"></span></li>
+            <li><span class="veggies"></span></li>
+            <li><span class="nutsandseeds"></span></li>
+            <li><span class="fruit"></span></li>
+          </ul>
+        </div>
+    </div>
+   </body>
+</html>
